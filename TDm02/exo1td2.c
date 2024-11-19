@@ -1,4 +1,5 @@
 #include <stdio.h> 
+//fct ui affiche les n premiers éléments d’un tableau de réels
 void affiche_tab(double t[], int n) {
     for(int i=0;i<n;i++){
         printf("%lf\n", t[i]);
